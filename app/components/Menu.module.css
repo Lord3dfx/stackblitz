@@ -10,7 +10,8 @@
 
 .menu{
   overflow: hidden;
-  z-index: 0;
+  box-sizing: border-box;
+  
   opacity: 0;
   position: relative;
   display: flex;
@@ -25,10 +26,10 @@
   content: '';
   position: absolute;
   z-index: -2;
-  left: -50%;
-  top: -50%;
-  width: 200%;
-  height: 200%;
+  left: -75%;
+  top: -75%;
+  width: 250%;
+  height: 250%;
 		background-color: #399953;
 		background-repeat: no-repeat;
 		background-size: 50% 50%, 50% 50%;
